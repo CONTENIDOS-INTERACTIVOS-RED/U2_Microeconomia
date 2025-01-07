@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '2',
+    tituloUnidad: 'Teoría del consumidor y del productor',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Preferencias y restricciones presupuestarias',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Preferencias del consumidor: conceptos y representación gráfica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Restricciones presupuestarias: ingresos, precios y combinaciones posibles',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Equilibrio del consumidor: interacción entre preferencias y restricciones',
+            hash: 't_1_3',
           },
         ],
       },
@@ -36,25 +45,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Maximización de la utilidad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Conceptos y tipos de utilidad',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Funciones de utilidad',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Ley de la utilidad marginal decreciente',
             hash: 't_2_3',
           },
         ],
@@ -63,20 +72,27 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Producción y costos: corto y largo plazo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Producción en el corto plazo: producto total, medio y marginal',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Producción en el largo plazo',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Estructura de costos: costos fijos, variables y totales',
+            hash: 't_3_3',
           },
         ],
       },
@@ -118,26 +134,71 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Salas Velasco, M. (2018). Microeconomía: conceptos teóricos y aplicaciones. Ediciones Pirámide. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/105577',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Pulido Castrillón, Á. A. (2021). Microeconomía del equilibrio general. Ediciones Unisalle.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/221245?page=23',
+    },
+    {
+      referencia:
+        'Antelo Suárez, M. (2015). Microeconomía intermedia en casos. Delta Publicaciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/170085',
+    },
+    {
+      referencia:
+        'Rodríguez Galván, J. Y. (2022). Microeconomía: teoría y ejercicios. Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/224089 ',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Costos fijos',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Gastos que permanecen constantes en el corto plazo, independientemente del nivel de producción, como el alquiler o los salarios administrativos.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Costos variables',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Gastos que cambian proporcionalmente con el nivel de producción, como el costo de materias primas o energía utilizada en el proceso productivo.',
+    },
+    {
+      termino: 'Elasticidad de la demanda',
+      significado:
+        'Medida de la sensibilidad de la cantidad demandada de un bien, ante cambios en su precio, en el ingreso del consumidor o en el precio de bienes relacionados.',
+    },
+    {
+      termino: 'Maximización de utilidad',
+      significado:
+        'Proceso mediante el cual un consumidor elige la combinación óptima de bienes que le proporcionan la mayor satisfacción posible, dentro de su restricción presupuestaria.',
+    },
+    {
+      termino: 'Producción',
+      significado:
+        'Proceso mediante el cual los factores productivos (tierra, trabajo y capital), se combinan para generar bienes o servicios destinados al consumo o la venta.',
+    },
+    {
+      termino: 'Producto marginal',
+      significado:
+        'Incremento en la producción total, generado por la adición de una unidad extra de un factor productivo, manteniendo las demás constantes.',
+    },
+    {
+      termino: 'Preferencias del consumidor',
+      significado:
+        'Descripción de los gustos y prioridades de los consumidores, al elegir entre diferentes bienes o servicios, representados gráficamente, mediante curvas de indiferencia.',
+    },
+    {
+      termino: 'Restricción presupuestaria',
+      significado:
+        'Límite impuesto por el ingreso del consumidor y los precios de los bienes, que define las combinaciones probables de consumo, dentro de sus posibilidades económicas.',
+    },
+    {
+      termino: 'Utilidad marginal',
+      significado:
+        'Incremento en la satisfacción que experimenta un consumidor al adquirir una unidad adicional de un bien, manteniendo constantes las demás variables.',
     },
   ],
 }
