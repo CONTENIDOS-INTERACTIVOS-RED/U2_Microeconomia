@@ -5,8 +5,8 @@
 
     p.mb-5 El análisis de producción y costos es fundamental en microeconomía, para comprender cómo las empresas deciden qué, cuánto y cómo producir, al mismo tiempo que optimizan sus recursos. Este tema nos introduce a las decisiones que enfrentan los productores al evaluar la relación entre insumos y productos, así como los costos asociados a diferentes niveles de producción (Rodríguez Galván, 2022).
     
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
       .col-lg-8.order-1
@@ -34,8 +34,8 @@
 
     .bg-full-width-2.bg-fondo-1
       .px-4.px-md-5.pb-md-3
-        .row.mb-5
-          .col-lg-4
+        .row.mb-5.justify-content-center
+          .col-md-8.col-lg-4.mb-3
             figure
               img(src="@/assets/curso/tema3/3.png", data-aos="zoom-in")
           .col-lg-8
@@ -81,8 +81,8 @@
 
     p.mb-5 En el análisis de la producción, se estudian tres indicadores claves que ayudan a evaluar el rendimiento de los factores productivos.
 
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in")
       .col-lg-8.order-1
@@ -92,7 +92,7 @@
         .row.mb-5
           .col-lg-6.bg-color-6.p-4.align-content-center
             .row.justify-content-center
-              .col-lg-8
+              .col-md-10.col-lg-8
                 figure
                   img(src="@/assets/curso/tema3/10.svg", data-aos="zoom-in")
           .col-lg-6.bg-color-1.p-4
@@ -131,7 +131,7 @@
         .row.mb-5
           .col-lg-6.bg-color-6.p-4.align-content-center
             .row.justify-content-center
-              .col-lg-8
+              .col-md-10.col-lg-8
                 figure
                   img(src="@/assets/curso/tema3/13.svg", data-aos="zoom-in")
           .col-lg-6.bg-color-1.p-4
@@ -237,8 +237,8 @@
     #t_3_3.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.3] Estructura de costos: costos fijos, variables y totales
 
-    .row.mb-5
-      .col-lg-4
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/tema3/18.png", data-aos="zoom-in")
       .col-lg-8

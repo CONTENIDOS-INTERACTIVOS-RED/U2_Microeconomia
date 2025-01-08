@@ -5,8 +5,8 @@
 
     p.mb-5 La <b>maximización de la utilidad</b> es un concepto central en la teoría del consumidor, el cual establece que las personas buscan asignar sus recursos limitados de la manera más eficiente para obtener el mayor nivel de satisfacción posible.
 
-    .row.mb-5
-      .col-lg-3
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-3.mb-3
         figure
           img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
       .col-lg-9
@@ -18,11 +18,11 @@
               img(src="@/assets/curso/tema2/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Este enfoque tiene implicaciones importantes para la economía y la política pública. Por ejemplo, permite analizar cómo los cambios en los precios o en el ingreso, afectan las decisiones de consumo.
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-1.order-lg-2.mb-3
         figure
           img(src="@/assets/curso/tema2/4.png", data-aos="zoom-in")
-      .col-lg-8.order-1
+      .col-lg-8.order-2.order-lg-1
         .bg-color-5.p-4.mb-4(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
@@ -67,10 +67,10 @@
 
             td.bg-color-6.p-4 
               p La función Cobb-Douglas es una de las más utilizadas en microeconomía, debido a su flexibilidad y capacidad para representar preferencias en diversos contextos. Su forma general es:
-              p U(X_1,X_2 )=A• X_1^α• X_2^β       donde X_1,X_2  > 0
+              p.text-center U(X<sub>1</sub>,X<sub>2</sub> ) = A • X<sub>1</sub><sup>α</sup> • X<sub>2</sub><sup>β</sup>  donde X<sub>1</sub>,X<sub>2</sub>  > 0
               p Donde A es el factor de escala que no afecta la elección del consumidor, pero ajusta la magnitud de la utilidad.
               p Donde X1, X2 son las cantidades consumidas de los bienes 1 y 2.
-              p Donde α, β son los parámetros positivos que reflejan la importancia relativa de cada bien en la utilidad del consumidor.
+              p Donde <b>α, β</b> son los parámetros positivos que reflejan la importancia relativa de cada bien en la utilidad del consumidor.
           tr
             td.bg-color-1.p-4(colspan="2") 
               p.text-bold Propiedades:
@@ -126,7 +126,7 @@
     p.mb-5 La solución analítica está dada por la fórmula:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-6
         figure
           img(src="@/assets/curso/tema2/7.svg", data-aos="zoom-in")
 
@@ -173,7 +173,7 @@
 
 
     .row.mb-5
-      .col-lg-6.bg-color-6.p-4.px-5.align-content-center
+      .col-lg-6.bg-color-6.p-4.px-5.align-content-center(data-aos="fade-left")
         p.text-bold Donde:
         ul.lista-ul
           li.d-flex.mb-0
@@ -185,11 +185,13 @@
           li.d-flex
             i.fas.fa-check-circle.bg-color-4
             p.mb-0 X1 y X2 son las cantidades consumidas de cada bien. 
-      .col-lg-6.bg-color-1.p-4.px-5
+      .col-lg-6.bg-color-1.p-4.px-5(data-aos="fade-right")
         p.text-bold Solución del problema:
         p <b>a</b>. Si P1 < P2, el consumidor compra únicamente X1, lo que se expresa como: 
-        figure
-          img.w-50(src="@/assets/curso/tema2/12.svg", data-aos="zoom-in")
+        .row
+          .col-lg-8
+            figure
+              img(src="@/assets/curso/tema2/12.svg", data-aos="zoom-in")
     
     p.mb-5 El objetivo del consumidor es maximizar su utilidad dentro de esta restricción, decidiendo cuál bien consumir en mayor cantidad según su precio.
 
@@ -207,7 +209,7 @@
     p.mb-5 <b>b</b>. Si P2 < P1, el consumidor compra únicamente X2, lo que se expresa como: 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.p-3.bg-color-3
+      .col-lg-6.p-3.bg-color-3
         figure
           img(src="@/assets/curso/tema2/14.svg", data-aos="zoom-in")
 
@@ -264,12 +266,12 @@
     p.mb-5 Un consumidor racional busca asignar su ingreso de manera que la utilidad marginal por unidad monetaria gastada (UM/P) sea igual para todos los bienes que consumen. Esto se formula matemáticamente como:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.p-3.bg-color-3
+      .col-lg-6.p-3.bg-color-3
         figure
           img(src="@/assets/curso/tema2/20.svg", data-aos="zoom-in")
 
     .row.mb-5
-      .col-lg-6.bg-color-6.p-4.px-5.align-content-center
+      .col-lg-6.bg-color-6.p-4.px-5.align-content-center(data-aos="fade-left")
         p.text-bold Donde:
         ul.lista-ul
           li.d-flex.mb-0
@@ -281,7 +283,7 @@
           li.d-flex
             i.fas.fa-check-circle.bg-color-4
             p.mb-0 UMy es la utilidad marginal del bien y, y así sucesivamente para los demás bienes. 
-      .col-lg-6.bg-color-1.p-4.px-5.align-content-center
+      .col-lg-6.bg-color-1.p-4.px-5.align-content-center(data-aos="fade-right")
         p.mb-0 Esta condición garantiza que el consumidor alcanza el equilibrio al maximizar su utilidad total, dentro de su restricción presupuestaria. En este punto, toda la renta disponible se ha gastado, y no hay incentivos para redistribuir el gasto entre los bienes.
 
     .bg-full-width-2.bg-fondo-1

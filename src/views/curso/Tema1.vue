@@ -29,9 +29,9 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Viabilidad económica.
+                p <strong>Anexo. </strong> Preferencias del consumidor.
 
-          .col-lg-4
+          .col-md-8.col-lg-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/2.png', alt='')
 
@@ -40,8 +40,8 @@
 
     p.mb-5 Este subtema aborda un aspecto crucial de la toma de decisiones económicas: cómo los consumidores, con recursos limitados, eligen entre diferentes bienes o servicios, para maximizar su satisfacción. Esta restricción presupuestaria combina tres elementos fundamentales (Pulido Castrillón, 2021):
 
-    .row.align-items-start.mb-5
-      .col-lg-4
+    .row.align-items-start.mb-5.justify-content-center
+      .col-md-8.col-lg-4
         figure
           img(src="@/assets/curso/tema1/3.png", alt="").mb-4.mb-lg-0
       .col-lg-8(data-aos="fade-left")
@@ -80,8 +80,8 @@
           .p-4
             p.mb-0(data-aos="fade-up") El equilibrio del consumidor es un concepto fundamental en la microeconomía que describe la situación en la cual un consumidor maximiza su utilidad, dadas sus preferencias y restricciones presupuestarias. Este equilibrio ocurre cuando el consumidor elige la combinación óptima de bienes y servicios que le proporciona la mayor satisfacción posible, considerando su ingreso limitado y los precios de los bienes (Antelo-Suárez, 2015).
 
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema1/5.png", data-aos="zoom-in")
       .col-lg-8.order-1
@@ -111,7 +111,7 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+            .col-lg-5.order-lg-2.mb-3
               figure
                 img(src="@/assets/curso/tema1/8.png")
             .col-lg-7.order-lg-1
@@ -130,7 +130,7 @@
                   p.mb-0 Px y Py: precios de los bienes <b>X</b> y <b>Y</b>, respectivamente.
               p La solución óptima, denominada (<b>X*, Y*</b>), representa la cantidad de cada bien que maximiza la utilidad del consumidor. En este punto, el ingreso del consumidor se gasta completamente en su cesta de consumo, alcanzando el nivel de satisfacción más alto posible (<b>U*</b>) dado su presupuesto.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+            .col-lg-5.order-lg-2.mb-3
               figure
                 img(src="@/assets/curso/tema1/9.png")
             .col-lg-7.order-lg-1
@@ -141,8 +141,8 @@
 
     h2(data-aos="fade-right").mb-5 Relación entre los problemas PRIMAL y DUAL
 
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema1/10.png", data-aos="zoom-in")
       .col-lg-8.order-1
