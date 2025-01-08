@@ -18,6 +18,16 @@
 .bg-color
   &-1
     background-color: #FBEADF
+  &-2
+    background-color: #FBEADF
+  &-3
+    background-color: #E8EDF7
+  &-4
+    color: $color-primario
+  &-5
+    background-color: #E3FBF2
+  &-6
+    background-color: #FADFD0
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -43,15 +53,26 @@
     padding-left: 1.5rem
     padding-right: 1.5rem
 
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    background-size: cover
+    
+
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -204,3 +225,8 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+.img-infografica.color-secundario .img-infografica__item__dot:before
+  background-color: #FFDF00
+.img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: #FFDF00
