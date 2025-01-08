@@ -43,7 +43,7 @@
     .row.align-items-start.mb-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema1/3.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/3.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Ingresos del consumidor")
