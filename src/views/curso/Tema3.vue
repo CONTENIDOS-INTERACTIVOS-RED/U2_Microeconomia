@@ -385,7 +385,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Teoría del Consumidor y del Productor',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -394,155 +394,168 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Qué representa una restricción presupuestaria en el análisis del consumidor?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'La utilidad total que puede alcanzar el consumidor.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto:
+                  'Los ingresos disponibles frente a los precios de los bienes.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'La satisfacción marginal de un bien específico.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'La cantidad total de bienes que el mercado produce.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Correcto, la restricción presupuestaria representa los ingresos disponibles del consumidor en relación con los precios de los bienes que desea adquirir',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'Según la teoría de la utilidad cardinal, ¿cómo se mide la utilidad de un bien?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Con un enfoque ordinal basado en preferencias.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'Por medio de un índice de precios.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
+                texto:
+                  'Cuantitativamente, como una medida numérica de satisfacción.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'A través de la combinación de bienes en una cesta.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Correcto, la teoría de la utilidad cardinal permite medir la utilidad de forma cuantitativa, asignando valores numéricos a la satisfacción que un bien otorga.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: '¿Qué representa la utilidad marginal de un bien?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto:
+                  'El beneficio total derivado de consumir todos los bienes disponibles.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto:
+                  'El cambio en la utilidad total al consumir una unidad adicional del bien.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'La cantidad de dinero gastada en el bien.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'La curva de indiferencia del consumidor.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Correcto, la utilidad marginal mide el incremento en la utilidad total al añadir una unidad más del bien, manteniendo constantes los demás factores.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'En la función de utilidad Cobb-Douglas, ¿qué suposición se hace respecto a los bienes?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Los bienes son perfectamente complementarios.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
+                texto: 'Existe sustituibilidad perfecta entre los bienes.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
+                texto:
+                  'Ambos bienes contribuyen de manera proporcional a la utilidad total.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto:
+                  'El consumidor prefiere consumir solo uno de los bienes.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Correcto, en la función Cobb-Douglas, se asume que ambos bienes contribuyen proporcionalmente a la utilidad total del consumidor, según los parámetros definidos.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Cómo se define el costo marginal en la producción?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto:
+                  'El costo total de producir una cantidad fija de bienes.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto:
+                  'El costo adicional de producir una unidad más de un bien.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'La suma de los costos fijos y variables.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto:
+                  'La diferencia entre el costo fijo medio y el costo variable medio.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Correcto, el costo marginal mide cuánto aumenta el costo total al producir una unidad adicional del bien.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
