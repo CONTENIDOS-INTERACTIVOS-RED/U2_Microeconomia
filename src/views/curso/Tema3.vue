@@ -115,8 +115,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img.d-none.d-lg-flex(src="@/assets/curso/tema3/11.svg", data-aos="zoom-in")
-          img.d-flex.d-lg-none(src="@/assets/curso/tema3/11-1.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/tema3/11b.svg", data-aos="zoom-in")
+          img.d-flex.d-lg-none(src="@/assets/curso/tema3/11b-1.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Tomado de Rodríguez Galván (2022). 
 
     .row.mb-5
@@ -305,8 +305,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img.d-none.d-lg-flex(src="@/assets/curso/tema3/20.svg", data-aos="zoom-in")
-          img.d-flex.d-lg-none(src="@/assets/curso/tema3/20-1.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/tema3/20b.svg", data-aos="zoom-in")
+          img.d-flex.d-lg-none(src="@/assets/curso/tema3/20b-1.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Tomado de Rodríguez Galván (2022). 
     
     p.mb-5 <b>c. Costo total.</b> El costo total (CT), representa la suma de todos los costos incurridos en el proceso de producción. Incluye, tanto los costos fijos como los variables:
@@ -325,8 +325,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure
-          img.d-none.d-lg-flex(src="@/assets/curso/tema3/21.svg", data-aos="zoom-in")
-          img.d-flex.d-lg-none(src="@/assets/curso/tema3/21-1.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/tema3/21b.svg", data-aos="zoom-in")
+          img.d-flex.d-lg-none(src="@/assets/curso/tema3/21b-1.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Tomado de Rodríguez Galván (2022).
 
     .bg-full-width.border-top.actividad.bg-color-actividad

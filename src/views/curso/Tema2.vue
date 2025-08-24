@@ -41,7 +41,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9jwIRDpWQ7I?si=GpgO4m7JJ_Rcl7Er" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h2(data-aos="fade-right") Diferencias claves entre ambos enfoques
 
@@ -123,6 +123,11 @@
           img.d-flex.d-lg-none(src="@/assets/curso/tema2/6-1.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Tomado de Pulido Castrillón (2021). 
     
+    p.mb-0 X₂
+    p.mb-0 X₁
+    p.mb-0 U(x₁, x₂) = Mín{x₁, x₂}
+    p.mb-0 U(x₁, x₂) = Mín{αx₁, βx₂}
+    p.mb-5 p₁·x₁ + p₂·x₂ = I
     p.mb-5 La solución analítica está dada por la fórmula:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -206,6 +211,13 @@
           img.d-flex.d-lg-none(src="@/assets/curso/tema2/13-1.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Tomado de Pulido Castrillón (2021). 
 
+    p.mb-0 X₂
+    p.mb-0 X₁
+    p.mb-0 Caso: p₁ < p₂
+    p.mb-0 U(x₁, x₂) = x₁ + x₂
+    p.mb-0 U(x₁, x₂) = αx₁ + βx₂
+    p.mb-5 x₁* = 1/p₁
+
     p.mb-5 <b>b</b>. Si P2 < P1, el consumidor compra únicamente X2, lo que se expresa como: 
     
     .row.justify-content-center.align-items-center.mb-5
@@ -224,6 +236,12 @@
           img.d-flex.d-lg-none(src="@/assets/curso/tema2/15-1.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Tomado de Pulido Castrillón (2021).  
 
+    p.mb-0 X₂
+    p.mb-0 X₁
+    p.mb-0 Caso: p₂ < p₁
+    p.mb-0 U(x₁, x₂) = x₁ + x₂
+    p.mb-0 U(x₁, x₂) = αx₁ + βx₂
+    p.mb-5 x₂* = 1/p₂
 
     .bg-full-width-2.bg-fondo-1
       .px-4.px-md-5.pb-md-3
